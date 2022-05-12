@@ -34,7 +34,7 @@
 - VR/AR
 
 ### Contact
-<a href="https://www.linkedin.com/in/kuo-hsiu-lee-5928b9a6/" target="_blank">
+<a href="https://www.linkedin.com/in/kuo-hsiu-lee" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a><br>
 <a href="mailto:kourtneylee1611@gmail.com" target="_blank">
