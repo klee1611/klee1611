@@ -3,6 +3,11 @@ on:
   schedule:
     # Runs every hour
     - cron: '0 * * * *'
+  workflow_dispatch: # Run workflow manually (without waiting for the cron timer)
+  push: # Run workflow when pushing to main or developer branch
+    branches:
+      - main
+      - developer
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
