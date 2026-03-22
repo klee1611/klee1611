@@ -1,6 +1,7 @@
 <h1 align="center">⚡ Kuo-Hsiu (Kourtney), Lee ⚡ </h1>
-<h3 align="center">An analytical and inventive backend developer/system architect based in Toronto, ON.</h3>
-**Senior Backend & Systems Architect** *High-Performance Distributed Systems | Core AI Backend System | Patentable R&D*
+<h3 align="center">An analytical and inventive Senior Backend & Systems Architect based in Toronto, ON.</h3>
+
+**High-Performance Distributed Systems | Core AI Backend System | Patentable R&D**
 
 Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years of experience, specializing in high-performance distributed backends required to scale AI applications, LLM pipelines, and serverless RAG architectures.
 
@@ -70,11 +71,6 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [How I Finally Removed GitHub’s Persistent “Ghost Notification” — The Real Fix With GitHub CLI](https://klee1611.github.io/posts/remove-ghost-notification-github-gitcoin-spam.html)
-- [Multiprocessing, Multithreading and Asyncio in Python Part 1 - Basic Concept](https://klee1611.github.io/posts/python-concurrency-parallelism-multiprocessing-multithreading-asyncio.html)
-- [Sync Obsidian / Joplin Data Across Multiple Devices with Synology WebDAV](https://klee1611.github.io/posts/sync-obsidian-joplin-data-across-multiple-device-synology-webdav.html)
-- [Managing Pre-existing Global NPM Packages After Installing NVM](https://klee1611.github.io/posts/managing-pre-exist-global-npm-packages-after-installing-nvm.html)
-- [Pyenv Notes](https://klee1611.github.io/posts/pyenv-notes.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
