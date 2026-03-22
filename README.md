@@ -1,9 +1,31 @@
-### Hi there 👋 I am Kourtney (Kuo-Hsiu) Lee
-:house_with_garden: Based in Toronto, ON (Open Work Permit)<br>
-:computer: Senior Backend Developer | Systems Architect | 7+ Years Experience<br>
-:rocket: Specializing in High-Performance Distributed Systems, Event-Driven Architecture, and AI Infrastructure<br>
+# ⚡ Kuo-Hsiu (Kourtney) Lee
 
-### Skill-set
+**Senior Backend & AI Systems Architect** *High-Performance Distributed Systems | Core AI Infrastructure | Patentable R&D*
+
+Welcome to my GitHub. I am a Systems Architect specializing in the high-performance distributed backend required to scale AI applications, LLM pipelines, and serverless RAG architectures. My engineering philosophy centers on proactive architecture—autonomously eradicating $O(N^2)$ scalability bottlenecks and building the highly concurrent, zero-trust data pipelines necessary for enterprise AI inference.
+
+### 🔬 Core Architectural Philosophy
+* **Scale Through Software:** Breaking hardware concurrency limits via multi-worker paradigms and asynchronous event-driven architectures.
+* **Algorithmic R&D:** Applying machine learning (Reinforcement Learning) to distributed network routing to optimize spatial occlusion and slash egress bandwidth.
+* **Core AI Backend:** Bridging real-time streaming protocols with AI inference engines without compromising system stability.
+
+---
+
+### 🚀 Featured R&D & Open Source Initiatives
+
+* **[Iron Counsel](#) (Serverless RAG Architecture)** Architected an end-to-end Retrieval-Augmented Generation backend utilizing LangChain and GCP Firestore's native KNN vector search (384-dimensional embeddings). Automated via a zero-touch Terraform and GitHub Actions CI/CD pipeline deploying to GCP Cloud Run.
+* **[Enterprise FastAPI Boilerplate](#) (16+ ⭐)** Authored a high-performance, asynchronous RESTful microservice template (FastAPI, Motor, uv) designed as a foundational backend standard for highly concurrent environments.
+* **AI-Powered NPC Engine** Engineered a customizable NPC system integrating LLM workflows to define character personality, behaviors, and interaction styles for seamless deployment into metaverse environments.
+
+---
+
+### 🧠 Patents & Intellectual Property
+* **US-20250363378-A1:** Invented a distributed network routing architecture utilizing Reinforcement Learning to dynamically evaluate spatial occlusion.
+* **US-20250240262-A1:** Engineered network optimization algorithms (3D frustum culling, dead reckoning) that successfully slashed distributed system network egress bandwidth by up to 80%.
+
+---
+
+### 🛠️ Technical Stack & Infrastructure
 <p align="center">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -48,25 +70,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=klee1611&exclude_repo=klee1611.github.io&layout=compact&theme=apprentice" alt="Top langs">
 </p>
 
-### Experience & Highlights
-- **Senior Engineer @ HTC Viverse**: Lead Architect for Viverse Worlds, optimized global database bottlenecks (10x-100x throughput), invented network optimization patents.
-- **Patents**: US-20250363378-A1 (Reinforcement Learning for Spatial Occlusion), US-20250240262-A1 (Network Optimization).
-- **Projects**: Enterprise FastAPI Boilerplate (16+ Stars), Iron Counsel 2026 (RAG backend with LangChain/GCP).
+---
 
-### Interests
-- Distributed Systems
-- Event-Driven Architecture
-- Microservices & DDD
-- High-Performance Computing
-- AI/ML Engineering
-
-### Contact
-<a href="https://www.linkedin.com/in/kuo-hsiu-lee" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a><br>
-<a href="mailto:kourtneylee1611@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a><br>
-<a href="https://github.com/klee1611">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github">
-</a><br>
+📫 **Let's Connect:** [LinkedIn](https://linkedin.com/in/kuo-hsiu-lee) | [Portfolio](https://klee1611.github.io)
