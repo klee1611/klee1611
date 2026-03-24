@@ -14,8 +14,8 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 
 ### 🚀 Featured R&D & Open Source Initiatives
 
-* **[Iron Counsel](#) (Serverless RAG Architecture)** Architected an end-to-end Retrieval-Augmented Generation backend utilizing LangChain and GCP Firestore's native KNN vector search (384-dimensional embeddings). Automated via a zero-touch Terraform and GitHub Actions CI/CD pipeline, deploying to GCP Cloud Run.
-* **[Enterprise FastAPI Boilerplate](#) (16+ ⭐)** Authored a high-performance, asynchronous RESTful microservice template (FastAPI, Motor, uv) designed as a foundational backend standard for highly concurrent environments.
+* **[Iron Counsel](https://github.com/klee1611/iron-counsel) (Serverless RAG Architecture)** Architected an end-to-end Retrieval-Augmented Generation backend utilizing LangChain and GCP Firestore's native KNN vector search (384-dimensional embeddings). Automated via a zero-touch Terraform and GitHub Actions CI/CD pipeline, deploying to GCP Cloud Run.
+* **[Enterprise FastAPI Boilerplate](https://github.com/klee1611/cookiecutter-fastapi-mongo) (16+ ⭐)** Authored a high-performance, asynchronous RESTful microservice template (FastAPI, Motor, uv) designed as a foundational backend standard for highly concurrent environments.
 
 ---
 
