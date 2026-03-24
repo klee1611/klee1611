@@ -71,11 +71,11 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Beyond the Wall: Building a Low-Cost, High-Efficiency Cloud RAG Application with Firestore Vector Search](https://klee1611.github.io/posts/build-rag-system-firestore-vector-search-iron-counsel.html)
 - [How I Finally Removed GitHub’s Persistent “Ghost Notification” — The Real Fix With GitHub CLI](https://klee1611.github.io/posts/remove-ghost-notification-github-gitcoin-spam.html)
 - [Multiprocessing, Multithreading and Asyncio in Python Part 1 - Basic Concept](https://klee1611.github.io/posts/python-concurrency-parallelism-multiprocessing-multithreading-asyncio.html)
+- [MacOS Legacy Rsync Hangs](https://klee1611.github.io/posts/resolve-macos-rsync-hangs.html)
 - [Sync Obsidian / Joplin Data Across Multiple Devices with Synology WebDAV](https://klee1611.github.io/posts/sync-obsidian-joplin-data-across-multiple-device-synology-webdav.html)
-- [Managing Pre-existing Global NPM Packages After Installing NVM](https://klee1611.github.io/posts/managing-pre-exist-global-npm-packages-after-installing-nvm.html)
-- [Pyenv Notes](https://klee1611.github.io/posts/pyenv-notes.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
