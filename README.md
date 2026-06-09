@@ -71,11 +71,11 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [PantryLens | Edge-Routed AI Vision PWA](https://klee1611.github.io/projects/pantry-lens.html)
+- [AuroraPath | Secure AI Routing Web Application](https://klee1611.github.io/projects/aurora-path.html)
+- [Hackathon Sniper | Autonomous Discovery AI Agent](https://klee1611.github.io/projects/hackathon-sniper.html)
 - [Beyond the Wall: Building a Low-Cost, High-Efficiency Cloud RAG Application with Firestore Vector Search](https://klee1611.github.io/posts/build-rag-system-firestore-vector-search-iron-counsel.html)
 - [How I Finally Removed GitHub’s Persistent “Ghost Notification” — The Real Fix With GitHub CLI](https://klee1611.github.io/posts/remove-ghost-notification-github-gitcoin-spam.html)
-- [Multiprocessing, Multithreading and Asyncio in Python Part 1 - Basic Concept](https://klee1611.github.io/posts/python-concurrency-parallelism-multiprocessing-multithreading-asyncio.html)
-- [MacOS Legacy Rsync Hangs](https://klee1611.github.io/posts/resolve-macos-rsync-hangs.html)
-- [Sync Obsidian / Joplin Data Across Multiple Devices with Synology WebDAV](https://klee1611.github.io/posts/sync-obsidian-joplin-data-across-multiple-device-synology-webdav.html)
 <!-- BLOG-POST-LIST:END -->
 
 ---
