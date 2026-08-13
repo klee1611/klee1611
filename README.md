@@ -118,11 +118,11 @@ A high-performance, production-ready RESTful async microservice template (FastAP
 
 ---
 
-### Github Stats
+### GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=klee1611&exclude_repo=klee1611.github.io&layout=compact&theme=apprentice&show_icons=true&locale=en" alt="Top langs" />
-  <img src="https://github-readme-stats.vercel.app/api?username=klee1611&count_private=true&show_icons=true&theme=apprentice" alt="github stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=klee1611&theme=apprentice" alt="streak" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=klee1611&exclude_repo=klee1611.github.io&layout=compact&theme=calm&show_icons=true&locale=en" alt="Top langs" />
+  <br />
+  <img src="https://github-stats-extended.vercel.app/api/?username=klee1611&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Kourtney%27s+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed" alt="github stats" />
 </p>
 
 ---
