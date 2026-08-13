@@ -1,9 +1,10 @@
 <h1 align="center">⚡ Kuo-Hsiu (Kourtney), Lee ⚡ </h1>
-<h3 align="center">An analytical and inventive Senior Backend & Systems Architect based in Toronto, ON.</h3>
+<h3 align="center">An analytical and inventive Senior Developer & Systems Architect based in Toronto, ON.</h3>
 
-**High-Performance Distributed Systems | Core AI Backend System | Patentable R&D**
+### High-Performance Distributed Systems · Applied AI · Patentable R&D
 
-Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years of experience, specializing in high-performance distributed backends required to scale AI applications, LLM pipelines, and serverless RAG architectures.
+Welcome to my GitHub. I build agentic AI systems — RAG pipelines, MCP-based agents, and identity-aware model gateways — on a foundation of 7+ years in high-performance distributed backends. Most of what
+I find interesting sits at the boundary: the point where a model demo has to survive real latency, real cost, and real users.
 
 ### 🔬 What I Have Done
 * **Scale Through Software:** Breaking hardware concurrency limits via multi-worker paradigms and asynchronous event-driven architectures.
@@ -12,10 +13,37 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 
 ---
 
-### 🚀 Featured R&D & Open Source Initiatives
+### 🚀 Featured Work & Open Source Initiatives
 
-* **[Iron Counsel](https://github.com/klee1611/iron-counsel) (Serverless RAG Architecture)** Architected an end-to-end Retrieval-Augmented Generation backend utilizing LangChain and GCP Firestore's native KNN vector search (384-dimensional embeddings). Automated via a zero-touch Terraform and GitHub Actions CI/CD pipeline, deploying to GCP Cloud Run.
-* **[Enterprise FastAPI Boilerplate](https://github.com/klee1611/cookiecutter-fastapi-mongo) (16+ ⭐)** Authored a high-performance, asynchronous RESTful microservice template (FastAPI, Motor, uv) designed as a foundational backend standard for highly concurrent environments.
+**[Iron Counsel](https://github.com/klee1611/iron-counsel)** — *Bilingual RAG service*
+LLaMA 3.3 70B grounded in a 24k-document corpus. Embedding inference runs locally via ONNX against
+Firestore native KNN search (384-dimensional embeddings), removing per-query API cost and an external dependency from the request
+path. Fully Terraformed on GCP; GitHub Actions deploys through Workload Identity Federation, so no
+credentials are stored in CI.
+`Python` `FastAPI` `LangChain` `Cloud Run` `Terraform`
+
+**[AuroraPath](https://github.com/klee1611/AuroraPath)** — *Agent identity & authorization*
+An LLM orchestrator running under its own machine-to-machine credential, separate from user
+authentication (Auth0). Every agent action is traceable to both principals, and the agent credential
+can be rotated or revoked without disrupting a single user session. Per-user quota is enforced in
+Redis, keyed on hashed identity claims.
+`Next.js` `Auth0` `Gemini` `Redis`
+
+**[HackathonSniper](https://github.com/klee1611/HackathonSniper)** — *Autonomous discovery agent*
+Searches, evaluates, and stores results through the Model Context Protocol. Tool servers run as
+isolated child processes over JSON-RPC, with Zod-validated schemas and an environment-driven factory
+that keeps the test suite free of external dependencies.
+`TypeScript` `MCP` `Groq` `Jest`
+
+**[PantryLens](https://github.com/klee1611/PantryLens)** — *Edge-proxied vision PWA*
+Photos of your fridge in, a streamed recipe out. Images are compressed client-side before an opaque
+Edge Function proxies them to the model — API keys and system prompts never reach the browser.
+Upstash Redis handles sliding-window rate limiting; SSE streams tokens back progressively.
+`Next.js` `React 19` `Vercel Edge` `Gemma` `Upstash`
+
+**[cookiecutter-fastapi-mongo](https://github.com/klee1611/cookiecutter-fastapi-mongo)** — *15 ⭐ · adopted as an enterprise standard*
+A high-performance, production-ready RESTful async microservice template (FastAPI, Motor, uv) with layered architecture, full CRUD test coverage, and Docker support. Written to solve a recurring I/O bottleneck; designed as a foundational backend standard for highly concurrent environments.
+`Python` `FastAPI` `MongoDB` `pytest`
 
 ---
 
@@ -26,10 +54,19 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 ---
 
 ### 🛠️ Technical Stack & Infrastructure
-* **Languages:** Python, C++, Golang, Elixir, SQL, TypeScript
-* **System Architecture:** Distributed Systems, Event-Driven Architecture, Domain-Driven Design (DDD), Microservices, Backend-For-Frontend (BFF)
-* **AI & Data:** FastAPI, LangChain, TensorFlow, PyTorch, PostgreSQL, MongoDB, Redis
-* **Infrastructure & Protocol:** AWS, GCP, Docker, Kubernetes, Terraform (IaC), WebRTC, gRPC
+
+**AI & LLM** — RAG · MCP · Agent Orchestration · Vector Search & Embeddings · LangChain · Groq · Anthropic · OpenAI · Gemini/Gemma · Local & Hybrid Inference
+
+**Languages** — Python · Go · C++ · TypeScript · Elixir · SQL
+
+**Architecture** — Distributed Systems · Event-Driven · Microservices · DDD (Domain-Driven Design) · BFF (Backend-For-Frontend)
+
+**Data** — PostgreSQL · MongoDB · Redis · Firestore · MySQL · LangChain
+
+**Framework** - FastAPI · Node.js · Gin
+
+**Infrastructure** — AWS · GCP · Vercel · Docker · Kubernetes · Terraform · WebRTC · gRPC
+
 <p align="center">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -60,6 +97,7 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform">
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
   <br>
   <!-- Others -->
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
@@ -90,14 +128,8 @@ Welcome to my GitHub. I am a Backend Developer/Systems Architect with 7+ years o
 ---
 
 ### 📫 Let's Connect
-<p>
-<a href="https://www.linkedin.com/in/kuo-hsiu-lee" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="mailto:kourtneylee1611@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a>
-<a href="https://github.com/klee1611">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github">
-</a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kuo-hsiu-lee)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kourtneylee1611@gmail.com)
+[![Website](https://img.shields.io/badge/Website-222222?style=for-the-badge&logo=github&logoColor=white)](https://klee1611.github.io)
+
+
