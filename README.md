@@ -16,33 +16,43 @@ I find interesting sits at the boundary: the point where a model demo has to sur
 ### 🚀 Featured Work & Open Source Initiatives
 
 **[Iron Counsel](https://github.com/klee1611/iron-counsel)** — *Bilingual RAG service*
+
 LLaMA 3.3 70B grounded in a 24k-document corpus. Embedding inference runs locally via ONNX against
 Firestore native KNN search (384-dimensional embeddings), removing per-query API cost and an external dependency from the request
 path. Fully Terraformed on GCP; GitHub Actions deploys through Workload Identity Federation, so no
 credentials are stored in CI.
+
 `Python` `FastAPI` `LangChain` `Cloud Run` `Terraform`
 
 **[AuroraPath](https://github.com/klee1611/AuroraPath)** — *Agent identity & authorization*
+
 An LLM orchestrator running under its own machine-to-machine credential, separate from user
 authentication (Auth0). Every agent action is traceable to both principals, and the agent credential
 can be rotated or revoked without disrupting a single user session. Per-user quota is enforced in
 Redis, keyed on hashed identity claims.
+
 `Next.js` `Auth0` `Gemini` `Redis`
 
 **[HackathonSniper](https://github.com/klee1611/HackathonSniper)** — *Autonomous discovery agent*
+
 Searches, evaluates, and stores results through the Model Context Protocol. Tool servers run as
 isolated child processes over JSON-RPC, with Zod-validated schemas and an environment-driven factory
 that keeps the test suite free of external dependencies.
+
 `TypeScript` `MCP` `Groq` `Jest`
 
 **[PantryLens](https://github.com/klee1611/PantryLens)** — *Edge-proxied vision PWA*
+
 Photos of your fridge in, a streamed recipe out. Images are compressed client-side before an opaque
 Edge Function proxies them to the model — API keys and system prompts never reach the browser.
 Upstash Redis handles sliding-window rate limiting; SSE streams tokens back progressively.
+
 `Next.js` `React 19` `Vercel Edge` `Gemma` `Upstash`
 
 **[cookiecutter-fastapi-mongo](https://github.com/klee1611/cookiecutter-fastapi-mongo)** — *15 ⭐ · adopted as an enterprise standard*
+
 A high-performance, production-ready RESTful async microservice template (FastAPI, Motor, uv) with layered architecture, full CRUD test coverage, and Docker support. Written to solve a recurring I/O bottleneck; designed as a foundational backend standard for highly concurrent environments.
+
 `Python` `FastAPI` `MongoDB` `pytest`
 
 ---
@@ -118,10 +128,13 @@ A high-performance, production-ready RESTful async microservice template (FastAP
 
 ---
 
-### GitHub Stats
+### Top Languages
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=klee1611&exclude_repo=klee1611.github.io&layout=compact&theme=calm&show_icons=true&locale=en" alt="Top langs" />
-  <br />
+</p>
+
+### GitHub Stats
+<p align="center">
   <img src="https://github-stats-extended.vercel.app/api/?username=klee1611&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Kourtney%27s+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed" alt="github stats" />
 </p>
 
